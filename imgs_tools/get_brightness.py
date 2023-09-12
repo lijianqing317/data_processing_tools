@@ -2,7 +2,7 @@
 # 把图片转换为单通道的灰度图
 import cv2
 import numpy as np
-img = cv2.imread('/home/lijq/Desktop/test/1647-0007-202.jpg')
+img = cv2.imread('/home/adt/Desktop/test/1647-0007-202.jpg')
 gray_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
 # 获取形状以及长宽
@@ -39,8 +39,8 @@ import PIL.ImageEnhance
 import PIL.Image
 import PIL.ImageEnhance
 import os
-pathimg = '/home/lijq/Desktop/test/'
-save_path = '/home/lijq/Desktop/test_r'
+pathimg = '/home/adt/Desktop/test/'
+save_path = '/home/adt/Desktop/test_r'
 for i in os.listdir(pathimg):
     imagep = os.path.join(pathimg,i)
     savep = os.path.join(save_path,i)
