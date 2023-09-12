@@ -35,8 +35,8 @@ def get_lightness(src):
     lightness = hsv_image[:, :, 2].mean()
     return lightness
 import os
-pathimg = '/home/lijq/Desktop/test/'
-save_path = '/home/lijq/Desktop/test_r'
+pathimg = '/home/adt/Desktop/test/'
+save_path = '/home/adt/Desktop/test_r'
 for i in os.listdir(pathimg):
     imagep = os.path.join(pathimg,i)
     savep = os.path.join(save_path,i)
